@@ -15,4 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement> 
+    <snapshotRepository> 
+      <id>cloudbees-private-snapshot-repository</id> 
+      <url>dav:https://repository-felix.forge.cloudbees.com/snapshot/</url> 
+    </snapshotRepository> 
+    <repository> 
+      <id>cloudbees-private-release-repository</id> 
+      <url>dav:https://repository-felix.forge.cloudbees.com/release/</url> 
+    </repository> 
+  </distributionManagement>
 </project>
