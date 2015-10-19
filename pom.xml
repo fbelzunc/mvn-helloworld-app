@@ -10,7 +10,7 @@
   <scm>
     <url>https://github.com/fbelzunc/mvn-helloworld-app</url>
     <connection>scm:git:git://github.com/fbelzunc/mvn-helloworld-app.git</connection>
-    <developerConnection>scm:git:git://github.com/fbelzunc/mvn-helloworld-app.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:fbelzunc/mvn-helloworld-app.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <dependencies>
