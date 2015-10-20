@@ -3,14 +3,14 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <scm>
     <url>https://github.com/fbelzunc/mvn-helloworld-app</url>
     <connection>scm:git:git@github.com:fbelzunc/mvn-helloworld-app.git</connection>
     <developerConnection>scm:git:git@github.com:fbelzunc/mvn-helloworld-app.git</developerConnection>
-    <tag>my-app-1.4</tag>
+    <tag>my-app-1.5</tag>
   </scm>
   <dependencies>
     <dependency>
