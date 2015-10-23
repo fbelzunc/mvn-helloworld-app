@@ -25,7 +25,6 @@
       <plugins>
         <!-- A recent version of the maven-release-plugin have to be used to be compatible with recent versions of git -->
         <plugin>
-          <!-- This extension is required for Maven 3.x which unlike Maven 2.x doesn't provide by default the webdav support -->
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <version>2.5.3</version>
@@ -35,6 +34,7 @@
     <extensions>
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
+        <!-- This extension is required for Maven 3.x which unlike Maven 2.x doesn't provide by default the webdav support -->
         <artifactId>wagon-webdav-jackrabbit</artifactId>
         <version>2.10</version>
       </extension>
